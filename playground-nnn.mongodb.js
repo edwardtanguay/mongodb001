@@ -1,5 +1,5 @@
 const database = 'langsite';
-const collectionName = 'flashcards';
+const collectionName = 'ver02flashcards';
 
 use(database);
 

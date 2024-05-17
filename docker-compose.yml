@@ -9,6 +9,6 @@ services:
       - 27017:27017
     volumes:
       - mongodata:/data/db
-  volumes:
-    mongodata:
-      driver: local
+volumes:
+  mongodata:
+    driver: local
